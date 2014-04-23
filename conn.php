@@ -1,6 +1,6 @@
 <?php
 /*MySQL Connection*/
-$conn = @mysql_connect("localhost","root","mjz1990");
+$conn = @mysql_connect("localhost","root","db123");
 if (!$conn){
 	die("Can't connet to mysql". mysql_error());
 }
